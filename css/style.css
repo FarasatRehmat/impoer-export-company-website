@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-bar-container{
+    border-bottom: 0.4rem solid #ff4701;
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    right: 5rem;
+    top: 4rem;
+    background-color: transparent !important;
+}
+.navbar button{
+    border:3px solid  #000151 !important;
+    background-color: #fff;
+    margin-left: auto;
+}
+.navbar button img{
+    height: 40px;
+    width: 40px;
+}
+.navbar button:focus{
+    box-shadow: none !important;
+}
+
+.navbar ul{
+    background-color: #000151;
+    width: 20rem;
+}
+.navbar ul li a{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.dropdown-menu.show{
+    position: relative !important;
+    right: -2rem !important;
+    width: 100% !important;
+    border: none;
+}
+.dropdown-menu.show li a:hover{
+    background-color: transparent;
+}
+.top-bar{
+    background-color: #000151;
+    border-bottom: 0.4rem solid #ffcb00;
+}
+img.USA-Continental-Logo{
+    width: 100%;
+    max-width: 30rem;
+}
+.USA-Continental-text h2{
+    border-bottom: 0.4rem solid #ff4701;
+    width: 100%;
+    max-width: 40rem;
+    color: #05078d;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+}
+.USA-Continental-text h3{
+    color: #05078d;
+}
+.USA-flag-container{
+    flex-wrap: wrap;
+}
+.USA-flag-container h4{
+    color: #000151;
+}
+.USA-flag-container h4 span{
+    color: #bf153a;
+}
+#Atencion-Venezuela b{
+    font-weight: 900;
+}
+.Atencion-Venezuela-container h2{
+    width: 100%;
+    max-width: 40rem;
+    font-weight: 700;
+    color: #05077f;
+}
+.Atencion-Venezuela-para{
+     text-align: justify;
+}
+.Atencion-Venezuela-para h5{
+    word-spacing: 1rem;
+    line-height: 2rem;
+}
+.ws-3 h5{
+   word-spacing: 0.3rem; 
+}
+.Atencion-Venezuela-Adress{
+    line-height: 2rem;
+    color: #05077f;
+}
+.Compras-Navidenas-text{
+    color: #05077f;
+}
+.Instrucciones a{
+    color: #ff4701;
+    letter-spacing: 2px;
+}
+.Ciudades-de-Entrega-container{
+    background-color: #010039;
+    border-top: 0.4rem solid #ffcb00;
+
+}
+.Ciudades-de-Entrega-text{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Ciudades-de-Entrega-text h1{
+        font-size: 4vw;
+}
+
+.Ciudades-de-Entrege-lists ul li{
+    list-style-type: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    line-height: 3rem;
+}
+.Ciudades-de-Entrege-lists ul span{
+    font-size: 1.6em;
+}
+.Ship-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ship-image img{
+    width:80%;
+}
+
+.home-head-all h1{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    color: #ff4701;
+}
+.home-head-all p{
+    color: #1a159d;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 26px;
+}
+.home-head-all p span{
+    color: #ff4701;
+     font-size: 1.4rem;
+    font-weight: 700;
+}
+.third-img{
+    width: auto;
+    height: 164px;
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+.bar-home img{
+    width: 90%;
+    height: 9px;
+}
+
+.contact-profile {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-profile p {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    color: #ff4701;
+    line-height: 2.2rem;
+}
+.contact-profile p span, .contact-profile span {
+    color: #061c62;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.bar-home img{
+    width: 100%;
+}
+.contact-profile{
+    display: flex;
+    align-items: center;
+}
+.contact-profile img {
+    width: 70%;
+    position: relative;
+    left: 15px;
+}
+.WhatsApp-img{
+    margin-left: -10px;
+    width: 40% !important;
+}
+.footer{
+    border-top: 5px solid #ff4701;
+    }
+     .footer-text{
+        background-color: #000151;
+        border-top: 0.3rem solid #ffcb00;
+     }
+    .footer-text a {
+        text-decoration: none;
+        padding-left: 6vw;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    
+
+
+/* Nosotros and pliticia */
+.Nosotros-left h1{
+    color: #ff4701;
+}
+.Nosotros-left p{
+    text-align: justify;
+    font-size: 15px;
+    color: #706b65;
+}
+.Nosotros-left h5{
+    color: #ff4701;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Nosotros-right h5{
+    color: #ff4701;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2.6rem !important;
+}
+.Nosotros-right h4{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1rem !important;
+}
+.Nosotros-right h6{
+    color: #ff4701;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -0.5rem !important;
+}
+.Nosotros-right-imgs{
+    position: relative;
+    
+}
+.noso-img2{
+    padding-right: 18px !important;
+}
+.noso-img2, .noso-img1{
+    width: 140px;
+}
+.noso-img1{
+    width: calc(140px - 18px);
+}
+
+
+
+
+/* page 8 */
+
+.politicas-headings h5{
+    color: #ff4701;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.politicas-headings p{
+    text-align: justify;
+    font-size: 15px;
+    color: #706b65;
+}
+
+
+
+/* Contecto */
+
+.contacto h4 {
+    color: red;
+}
+.contacto  span {
+    color: red;
+    font-weight: 600;
+}
+.contacto a {
+    text-decoration: none;
+    color: #5e6294;
+
+}
+.contacto-p {
+    margin-top: 12px;
+    color: #5e6294;
+}
+.contacto p {
+    color: #5e6294;
+}
+.contact-profile1 {
+    display: flex;
+}
+.contact-profile1 span {
+    color: #ff4701;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1px;
+}
+.contact-profile1 p {
+    color: #6573a1;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.contact-profile1 img {
+    width: 70px;
+    position: relative;
+    bottom: 1rem;
+}
+.contact-profile1-whatsapp {
+    display: flex;
+}
+.contact-profile1-whatsapp img {
+    width: 100px;
+}
+.contact-profile1-whatsapp p {
+    color: #6573a1;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+
+
+
+/* terminos */
+.terminos {
+    width: 25rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.terminos h5, span {
+    color: #ff4701;
+    font-weight: 700;
+}
+.terminos p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.terminos-flex {
+    margin-left: 2rem;
+    display: flex;
+}
+.terminos2 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+
+/*style of 2nd section*/
+
+.group-a-heading h4{
+	color: #FF4701;
+}
+.group-a-list{
+	display: flex;
+}
+.group-a-list li{
+	color: darkblue;
+	list-style-type: none;
+}
+
+#header-container .group-a-heading h2{
+	color: #FF4701;
+}
+#header-container .instructions-text p{
+	font-size: 18px;
+}
+.group-a-description p{
+	color: #FF4701;
+	font-size: 15px;
+}
+.instructions-image img{
+	width: 60%;
+}
+.group-a-ship img{
+	width: 22rem;
+}
+
+/*style of 3rd section*/
+
+.usa-main-image{
+	display: flex;
+	/*justify-content: space-around;*/
+}
+.usa-sub-image img{
+	width: 100%;
+}
+.usa-sub-image{
+	height: 20%;
+	margin-top: 2.8rem;
+}
+
+.usa-main-heading{
+	display: flex;
+	justify-content: space-between;
+	/*padding: 3rem 5rem;*/
+	/*justify-content: center;*/
+	padding: 0 10px;
+	width: 100%;
+}
+.usa-main-heading h2 {
+	padding: 3rem 0;
+	
+}
+.usa-main-heading-fh2 {
+	position: relative;
+	right: 10px;
+}
+.usa-main-heading-2h2 {
+	position: relative;
+	left: 12px;
+}
+.pie-main{
+	display: flex;
+	flex-wrap: wrap;
+	color: #00036c;
+}
+.Semanas{
+	color: #00036c;
+}
+.Semanas-main{
+	display: flex;
+	justify-content: space-between;
+}
+.Semanas-hr{
+	padding: 2px;
+	color: #595959;
+	font-weight: bold;
+}
+.Semanas-last-main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Semanas-last-heading{
+	display: flex;
+	color: #00036c;
+	margin-left: 5rem;
+}
+.minimo{
+	color: #fc2d00;
+}
+.ending-heading{
+	color: #fc2d00;
+}
+.last{
+	line-height: 2px;
+}
+.pie-heading{
+	line-height: 19px;
+	margin-left: 3rem;
+}
+.Interior-heading{
+	color: #fc2d00;
+}
+
+
+@media (min-width: 991px) and (max-width: 1343px){
+    .third-img{
+        height: 8vw;
+    }
+    .home-head-all h1{
+        font-size: 1.5rem;
+        padding-bottom: 2rem !important;
+    }
+    .home-head-all p{
+        font-size: 0.9rem;
+        line-height: 16px;
+    }
+    .home-head-all p span{
+        font-size: 0.9rem;
+    }
+    .bar-home img{
+        width: 100%;
+    }
+    .contact-profile p {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        
+    }
+    .contact-profile p span, .contact-profile span {
+        font-size: 1.2rem;
+    }
+}
+
+/*media curies*/
+
+@media screen and (max-width:  1050px){
+	.usa-sub-image{
+		margin-top: 2rem;
+	}
+}
+@media screen and (max-width: 991px) {
+        .Ciudades-de-Entrege-lists ul li{
+            font-size: 1em;
+        }
+        .Ciudades-de-Entrege-lists ul span{
+            font-size: 1em;
+        }
+        .img-container{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            
+        }
+        .third-img{
+            height: 13vw;
+        }
+        .home-head-all h1{
+            font-size: 2rem;
+            padding-bottom: 2rem !important;
+        }
+        .home-head-all p{
+            font-size: 1rem;
+            line-height: 16px;
+        }
+        .home-head-all p span{
+            font-size: 1rem;
+        }
+        .contact-profile p {
+            font-size: 1.6rem;
+        }
+        .contact-profile p span, .contact-profile span {
+            font-size: 1.4rem;
+            line-height: 3.5rem;
+            
+        }
+        .contacto {
+        margin-left: 3rem !important;
+    }
+    .footer{
+        margin-top: 4rem;
+    }
+    .footer-text a {
+        font-size: 8px;
+    }
+    .footer-text img{
+        width: 14%;
+    }
+    .navbar{
+        position: relative;
+        right: 2rem;
+        top: 0.3rem;
+        display: block;
+    }
+}
+
+@media screen and (max-width:  869px) {
+    .pie-heading{
+        margin-left: 1px !important;
+    }
+}
+@media screen and (max-width:  790px){
+    .usa-sub-image{
+        margin-top: 1.9rem;
+    }
+    .terminos {
+        margin: 0;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:  740px){
+    .usa-main-heading h2{
+        padding: 1rem;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:  700px){
+    .usa-sub-image{
+        margin-top: 1.5rem;
+    }
+}
+@media screen and (max-width: 686px) {
+    .Semanas-last-heading{
+        margin-left: 1px;
+	}
+	.Semanas-last-heading h5{
+        font-size: 1rem !important;
+	}
+}
+@media screen and (max-width: 656px){
+    .usa-main-heading h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:  592px){
+    .last{
+        line-height: normal !important;
+    }
+}
+@media screen and (max-width: 527px){
+    .contecto-all{
+        margin-left: 0rem !important;
+    }
+    
+     .usa-sub-image{
+        margin-top: 0.9rem;
+    }
+    .usa-main-heading h2{
+        font-size: 20px;
+    }
+    .Instrucciones{
+            font-size: 13px;
+        }
+        
+        .Ciudades-de-Entrege-lists ul li{
+            font-size: 0.7em;
+        }
+        .home-head-all{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+        .third-img{
+            height: 13vw;
+        }
+        
+        .home-head-all p{
+            font-size: 0.7rem;
+        }
+        .home-head-all p span{
+            font-size: 0.7rem;
+        }
+         .contact-profile p {
+            font-size: 1.2rem;
+        }
+        .contact-profile p span, .contact-profile span {
+            font-size: 1rem;
+            line-height: 3.5rem;
+    
+        }
+        .contact-profile img {
+            width: 60%;
+            position: relative;
+            left: 15px;
+        }
+        .WhatsApp-img{
+            margin-left: -10px;
+            width: 40% !important;
+            height: 40px;
+            margin-top: 7px;
+        }
+        
+        .footer-text a {
+            font-size: 5px;
+        }
+        .footer-text img{
+            width: 10%;
+        }
+    
+    }
+@media screen and (max-width:440px) {
+    .noso-img2, .noso-img1{
+        width: 100%;
+    }
+    .noso-img2 h4,.noso-img1 h4 {
+        font-size: 10px;
+    }
+    .noso-img2 h6, .noso-img1 h6 {
+        font-size: 8px;
+    }
+    .norotros-text{
+        margin-top: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .margin{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Nosotros-right h5{
+        text-align: center;
+        font-size: 18px;
+    }
+    .USA-Continental-all{
+        margin-left: -2.7rem;
+        
+    }
+    .politicas-headings{
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .row>*{
+        flex-shrink: 1 !important;
+    }
+}
+
+@media screen and (max-width: 692px) and (min-width: 400px){
+
+	.group-a-img-ship{
+		padding-right: 10px;
+		text-align: center;
+	}
+	.group-a-heading h4{
+		margin-top: 1rem!important;
+	}
+	.instructions-text p{
+		font-size: 16px!important;
+	}
+	.instructions-text{
+		width: 25rem;
+	}
+	.instructions-image img{
+		width: 100%;
+	}
+    
+    .group-a-heading{
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) and (min-width: 270px){
+	.group-a-img-ship{
+		padding-right: 10px;
+		text-align: center;
+	}
+	.group-a-img-ship img{
+		width: 100% !important;
+	}
+	.group-a-heading h4{
+		margin-top: 1rem!important;
+	}
+	.group-a-list ul{
+		margin-left: 0px !important;
+	}
+	.group-a-list li{
+		font-size: 12px;
+	}
+	.instructions-text{
+		width: 25rem;
+	}
+	.instructions-text p{
+		font-size: 12px!important;
+	}
+	.instructions-image img{
+		width: 100%;
+	}
+    .group-a-heading{
+        padding-left: 2rem;
+    }
+}
